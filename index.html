@@ -10,35 +10,43 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <h2 class="navbar-brand text-success fw-bold">EcoStyle</h2>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Categorias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Facturas</a>
-                    </li>
-                </ul>
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+  <div class="container">
 
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold fs-3" href="#">
+      EcoStyle
+    </a>
 
-                        <button class="boton-compra" type="submit"><img src="./Assets/Images/carrito-de-compras.png" alt="" class="img-carrito "></button>
-                    </form>
-                </div>
-            </div>
-    </nav>
+    <!-- Botón responsive -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      
+      <!-- Items centrados -->
+      <ul class="navbar-nav mx-auto gap-3">
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Tienda</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Categorías</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Ofertas</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contacto</a></li>
+      </ul>
+
+      <!-- Iconos a la derecha -->
+      <div class="d-flex align-items-center gap-3">
+        <i class="bi bi-search fs-5"></i>
+        <i class="bi bi-person fs-5"></i>
+        <i class="bi bi-bag fs-5"></i>
+      </div>
+
+    </div>
+
+  </div>
+</nav>
+
 </body>
 
 </html>
