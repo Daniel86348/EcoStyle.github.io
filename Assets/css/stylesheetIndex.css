@@ -1,11 +1,3 @@
-.activo{
-  nav ul li a.active {
-  color: #00C853;        /* color destacado */
-  font-weight: bold;     /* negrita */
-  border-bottom: 3px solid #00C853; /* línea debajo para indicar selección */
-}
-
-}
 
 @media (min-width: 992px){
     .iconos{
