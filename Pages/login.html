@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/Assets/css/stylsheet.css">
     <title>Login</title>
 </head>
 
 <body>
-    <div class="container-fluid bg-secondary">
-        <div class="container bg-light">
+    <div class="container-fluid contenedor">
+        <div class="container py-3 contenedor-principal rounded">
             <form action="">
+                <h1 class="text-success text-center pb-3">EcoStyle</h1>
+                <h2 class="text-center pb-3">Iniciar sesión</h2>
 
                 <!--Correo-->
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <div class="mb-3 credenciales mx-auto">
                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                        placeholder="Correo electronico">
                 </div>
                 <!--Contraseña-->
-                <div class="row g-3 align-items-center">
-                    <div class="col-auto">
-                        <label for="inputPassword6" class="col-form-label">Password</label>
-                    </div>
+                <div class="g-3 align-items-center credenciales mx-auto">
                     <div class="col-auto">
                         <input type="password" id="inputPassword6" class="form-control"
-                            aria-describedby="passwordHelpInline">
-                    </div>
-                    <div class="col-auto">
-                        <span id="passwordHelpInline" class="form-text">
-                            Deberia contener 8 caracteres.
-                        </span>
+                            aria-describedby="passwordHelpInline" placeholder="Contraseña">
                     </div>
                 </div>
+                <div class="text-center m-4 ">
+                    <button type="submit" class="btn btn-success btn-sesion">Iniciar sesión</button>
+                </div>
+            </form>
+
+            <div class="text-center">
+            <p>¿No tienes cuenta?</p>
+
+            <a href="register.html" class="registro text-decoration-none text-success fw-semibold">Registrate</a>
+
+            </div>
         </div>
     </div>
 

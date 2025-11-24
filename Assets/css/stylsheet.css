@@ -1,5 +1,23 @@
-@media (min-width: 992px){
-    .iconos{
-        order: 3;
-    }
+body{
+    background-color: rgb(234, 236, 236);
+}
+
+.contenedor-principal{
+    background-color: white;
+    width: 60%;
+    margin-top: 10%;
+    padding: 40% 0;
+    
+}
+
+.credenciales{
+    width: 70%;
+}
+
+.btn-sesion{
+    padding: 2% 31%;
+}
+
+.btn-registrate{
+    padding: 2% 32.2%;
 }
