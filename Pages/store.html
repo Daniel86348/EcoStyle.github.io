@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="Assets/css/stylesheetIndex.css" />
+    <title>EcoStyle</title>
+</head>
+
+<body>
+    <!--Navegación-->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold fs-3 text-success" href="#">
+                EcoStyle
+            </a>
+
+            <!-- Iconos -->
+            <div class="d-flex align-items-center gap-4 order-lg-3 ms-auto me-2">
+                <a href="./Pages/login.html" class="text-dark">
+                    <i class="bi bi-person fs-5"></i>
+                </a>
+                <a href="#" class="text-dark">
+                    <i class="bi bi-bag fs-5"></i>
+                </a>
+            </div>
+
+            <!-- Botón responsive -->
+            <button class="navbar-toggler order-lg-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú -->
+            <div class="collapse navbar-collapse order-lg-2" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold activo" href="store.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#">Categorías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold d-none" href="#">Facturas</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</body>
+</html>
