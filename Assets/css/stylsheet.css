@@ -1,9 +1,5 @@
-.img-carrito{
-    height: auto;
-    width: 30%;
-}
-
-.boton-compra{
-    height: auto;
-    width: 40%;
+@media (min-width: 992px){
+    .iconos{
+        order: 3;
+    }
 }
