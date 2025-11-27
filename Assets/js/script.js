@@ -16,7 +16,7 @@ function renderProductos(lista, contenedor) {
                 <div class="card-body">
                     <h5 class="card-title">${prod.nombre}</h5>
                     <div class="d-flex justify-content-between align-items-center">
-                        <p class="card-text fw-bold">$${prod.precio}</p>
+                        <p class="card-text fw-bold">$${prod.precio},000</p>
                         <a href="#" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
                     </div>
                     
