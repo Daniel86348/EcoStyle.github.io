@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bolsa de yute",
+        "precio": 15,
+        "categoria": "Accesorios",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 2,
+        "nombre": "Botella de agua",
+        "precio": 5,
+        "categoria": "Hogar",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 3,
+        "nombre": "Camiseta ecologica",
+        "precio": 25,
+        "categoria": "Ropa",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 4,
+        "nombre": "Jabones artesanales",
+        "precio": 25,
+        "categoria": "Cuidado personal",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 5,
+        "nombre": "Velas aromaticas",
+        "precio": 25,
+        "categoria": "Hogar",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 6,
+        "nombre": "Perfumes",
+        "precio": 25,
+        "categoria": "Cuidado personal",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 7,
+        "nombre": "Aceites esenciales",
+        "precio": 25,
+        "categoria": "Cuidado personal",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 8,
+        "nombre": "Cafe especial",
+        "precio": 25,
+        "categoria": "Hogar",
+        "destacado": false,
+        "img": "ola"
+    },
+    {
+        "id": 9,
+        "nombre": "Shampoo sólido",
+        "precio": 28,
+        "categoria": "Cuidado personal",
+        "destacado": true,
+        "img": "ola"
+    },
+    {
+        "id": 10,
+        "nombre": "Jabon en barra",
+        "precio": 15,
+        "categoria": "Cuidado personal",
+        "destacado": true,
+        "img": "ola"
+    },
+    {
+        "id": 11,
+        "nombre": "Esponja exfollante",
+        "precio": 8,
+        "categoria": "Hogar",
+        "destacado": true,
+        "img": "ola"
+    },
+    {
+        "id": 12,
+        "nombre": "Bolsa reutilizable",
+        "precio": 25,
+        "categoria": "Accesorios",
+        "destacado": true,
+        "img": "ola"
+    }
+]
